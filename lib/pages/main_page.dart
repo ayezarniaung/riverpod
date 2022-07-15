@@ -24,9 +24,9 @@ class _MainPageState extends State<MainPage> {
     return BottomNavigationBar(
       currentIndex: currentIndex,
       elevation: 0,
-      backgroundColor: ColorUtils.primaryColor,
+      // backgroundColor: ColorUtils.disableColor,
       selectedItemColor: ColorUtils.primaryColor,
-      unselectedItemColor: Colors.white,
+      // unselectedItemColor: Colors.white,
       type: BottomNavigationBarType.fixed,
       // unselectedLabelStyle: llNavBarText,
       // selectedLabelStyle: llNavBarText,
