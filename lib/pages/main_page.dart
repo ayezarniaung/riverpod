@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:river_pod_example/pages/better_player_test.dart';
 import 'package:river_pod_example/utils/color_utils.dart';
 
 class MainPage extends StatefulWidget {
@@ -62,8 +63,8 @@ class _MainPageState extends State<MainPage> {
     });
   }
 
-  List<Widget> buildScreens = const [
-    Scaffold(),
+  List<Widget> buildScreens = [
+    MyVideoTest(),
     Scaffold(),
     Scaffold(),
     Scaffold(),
